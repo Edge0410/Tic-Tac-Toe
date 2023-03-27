@@ -1,0 +1,35 @@
+body
+{
+    text-align: center;
+}
+
+.container
+{
+    display: grid;
+    margin: auto;
+    width: 300px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);    
+    border: 1px solid black;
+}
+
+.box
+{
+    background-size: 100% 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.circle
+{
+    background-image: url("circle.png");
+    cursor: not-allowed !important;
+}
+
+.ics
+{
+    background-image: url("x.png");
+    cursor: not-allowed !important;
+}
+
+
